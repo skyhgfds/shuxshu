@@ -12,11 +12,11 @@ import requests
 # --- 用户配置 ---
 # 1. 在这里填入你从 Cloudflare Zero Trust 仪表盘获取的 Tunnel Token
 # 获取地址: Access -> Tunnels -> Create a tunnel
-TUNNEL_TOKEN = "eyJhIjoiZTY1Mjg3ZmQ5NzMyZmE5Yjc0NjVkMWZhZTdmMmZlYTIiLCJ0IjoiOGFkNjY5MTUtNjNjZC00MjNjLWEwZGItNWIxY2ZmMzc1YTNjIiwicyI6IlpUWTBOekF4TVRjdE5UYzVaQzAwTW1SbExUaGlaRE10WldOa1ptSTBPRFkwWlRrNCJ9"
+TUNNEL_TOKEN = "123"
 
 # 2. 为你的SSH连接设置一个密码
 # 警告：请务必修改为一个强密码！
-SSH_PASSWORD = "shuxshu" 
+SSH_PASSWORD = "123" 
 
 # 3. 你计划在 Cloudflare 上绑定的域名 (用于最终连接)
 # 例如：ssh.yourdomain.com
